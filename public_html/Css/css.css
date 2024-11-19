@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.navPrincipal:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+/*.esconder{
+    display: none;
+}*/
+
+.texto-centrado{
+  text-align: center;
+}
+
+#pMensajeError{
+    font-weight: bold;
+    color: red;
+    margin-left: 10px
+}
+
+#pMensajeExito{
+    font-weight: bold;
+    color: green;
+    margin-left: 10px
+}
+
+.navPrincipal {
+    display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .navPrincipal {
+    height: 1%;
+}
+.navPrincipal {
+    display: block;
+}
+/* close commented backslash hack */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+#menuSocio li, body{
+    background-color: #277892;
+}
+#menuAdmin li, body{
+    background-color: #277892;
+}
+#aux a{
+    color:#0E1C20;
+
+}
+.link-azul{
+    color: #0436CB;
+    margin-left: 10px
+}
+#contenedor {
+    width: 1000px;
+    background-color: #FFF;
+    margin: 0 auto;
+}
+#logo {
+    margin: 20px;
+    float: left;
+}
+#aux{
+    float:right;
+    clear:right;
+    padding:0 24px 10px 0;
+}
+#menuSocio a{
+    color:#0E1C20;
+    cursor:pointer;
+    color:#FFF;
+    font-size:14px;
+}
+#menuAdmin a{
+    color:#0E1C20;
+    cursor:pointer;
+    color:#FFF;
+    font-size:14px;
+}
+#aux a{
+    text-decoration:underline;
+    cursor:pointer;
+    color:#FFF;
+    font-size:14px;
+}
+#menuSocio {
+    float: right;
+    margin-top: 35px;
+    margin-right:20px;
+    max-width:750px;
+}
+#menuAdmin {
+    float: right;
+    margin-top: 35px;
+    margin-right:20px;
+    max-width:750px;
+}
+#menuSocio li {
+    list-style-type: none;
+    padding: 10px;
+    border: 1px solid #6B6B6B;
+    margin: 5px;
+    float: left;
+}
+#menuAdmin li {
+    list-style-type: none;
+    padding: 10px;
+    border: 1px solid #6B6B6B;
+    margin: 5px;
+    float: left;
+}
+#cabezal {
+    background-color: #7BBBd1;
+}
+#contenido {
+    padding:20px;
+    float: left;
+}
+#lateral {
+    background-color: #EFEFEF;
+    width: 290px;
+    float: left;
+    padding:20px;
+}
+#lateral, #contenido{
+    min-height:250px;
+}
+#pie {
+    background-color: #7BBBd1;
+    clear: both;
+    padding:20px;
+    color:#FFF;
+    font-size:12px;
+}
+input{
+    color:#fff;
+    border:1px solid #CCC;
+    padding:5px 10px;
+}
+input[type='button']{
+    background-color:#277892;
+}
+input[type='text'],input[type='password'], input[type='email'] {
+    background-color:#7BBBd1;
+    color:#333;
+}
+.select{
+    background-color:#7BBBd1;
+    color:#333;
+    border:1px solid #CCC;
+    padding:5px 10px;
+    width: 180px;
+    margin-left: 10px
+}
+form {
+    text-align: center;
+    width: 25em;
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid #E0E0E0;
+    font-size: 1em;
+    font-family: monospace;
+    line-height: 1;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    background: #F5F5F5;
+}
+label {
+    display: inline-block;
+    text-align: left;
+    width: 15em;
+    vertical-align: bottom;
+    margin-left: 10px
+}
+input {
+    display: inline-block;
+    width: 14em;
+    margin-left: 10px;
+}
+.subm-rest input {
+    width: 10em;
+    margin: 1em;
+}
+input[type='radio'] {
+    width: 50px;
+}
+#tablaDeReporteSocio{
+    margin-left: 20px;
+    margin-top: 20px;
+}
